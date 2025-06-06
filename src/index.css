@@ -1,0 +1,100 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  /* background-color: #242424; */
+  background-image: url(marita-kavelashvili-ugnrXk1129g-unsplash.jpg);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.appList {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.appCard {
+  display: flex;
+
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 8px;
+  background-color: #1f301d;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  opacity: 0.9;
+}
+
+.cardTitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #fff;
+}
+.cardDescription {
+  font-size: 1rem;
+  color: #ccc;
+}
+.cardButton {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 4px;
+  background-color: #086b1a;
+  color: #fff;
+  text-decoration: none;
+}
+.cardButton:hover {
+  background-color: #228b7d;
+}
+
+.appNavbar {
+  display: flex;
+  padding: 10px;
+  margin: 10px;
+  background-color: #444;
+  color: #fff;
+}
+
+.appNavbarContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 10px;
+  background-color: #cec8c8;
+  border-radius: 10px;
+  color: #fff;
+  opacity: 0.8;
+}
+
+.navLinks {
+  color: #050505;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.navLogo {
+  margin-right: 5px;
+}
+
+.aboutContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin: 10px;
+  height: 50vh;
+  background-color: #1f301d;
+  border-radius: 10px;
+  color: #fff;
+  opacity: 0.9;
+}
