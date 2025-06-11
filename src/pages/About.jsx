@@ -11,11 +11,6 @@ export default function About() {
           features of React, providing a hands-on experience for users.
         </p>
         <p>
-          The projects include a ToDo App, APOD Project, Weather App, Calculator
-          App, Memory Game, Tic Tac Toe, Rock Paper Scissors, and a Pomodoro
-          Timer.
-        </p>
-        <p>
           Feel free to explore each project by clicking on the links provided in
           the app list.
         </p>

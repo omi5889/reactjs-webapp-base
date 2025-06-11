@@ -68,19 +68,22 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   padding: 10px;
   margin: 10px;
-  background-color: #cec8c8;
+
   border-radius: 10px;
   color: #fff;
   opacity: 0.8;
+  height: 60px;
 }
 
 .navLinks {
   color: #050505;
   text-decoration: none;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 24px;
+  padding: 4px;
 }
 
 .navLogo {
