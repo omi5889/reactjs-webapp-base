@@ -20,6 +20,13 @@ const apps = [
       "This application allows users to make random decisions by providing options. It randomly selects one of the provided options.",
     url: "https://pines-rjs-decider.netlify.app/",
   },
+  {
+    id: 4,
+    name: "Notes App",
+    description:
+      "This application allows users to make notes. Notes can be added, deleted, and edited.",
+    url: "https://mern-thinkboard-3lrp.onrender.com/",
+  },
 ];
 
 export default apps;
