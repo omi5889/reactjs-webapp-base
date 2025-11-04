@@ -24,7 +24,6 @@
 
 .appCard {
   display: flex;
-
   width: 100%;
   max-width: 400px;
   padding: 20px;
@@ -44,6 +43,7 @@
 .cardDescription {
   font-size: 1rem;
   color: #ccc;
+  height: 75px;
 }
 .cardButton {
   display: inline-block;

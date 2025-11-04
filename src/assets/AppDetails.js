@@ -1,4 +1,5 @@
-const apps = [
+// const apps = [
+export default [
   {
     id: 1,
     name: "ToDo App",
@@ -27,6 +28,13 @@ const apps = [
       "This application allows users to make notes. Notes can be added, deleted, and edited.",
     url: "https://mern-thinkboard-3lrp.onrender.com/",
   },
+  {
+    id: 5,
+    name: "Recipe Suggestion App",
+    description:
+      "This application allows users to provide a list on ingredients. The application uses API from Hugging Face to suggest a recipe using AI.",
+    url: "https://pines-rjs-recipe.netlify.app/",
+  },
 ];
 
-export default apps;
+// export default apps;
