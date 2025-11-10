@@ -35,6 +35,12 @@ export default [
       "This application allows users to provide a list on ingredients. The application uses API from Hugging Face to suggest a recipe using AI.",
     url: "https://pines-rjs-recipe.netlify.app/",
   },
+  {
+    id: 6,
+    name: "Tenzies App",
+    description: "Tenzies game.",
+    url: "https://pines-rjs-tenzies.netlify.app/",
+  },
 ];
 
 // export default apps;
